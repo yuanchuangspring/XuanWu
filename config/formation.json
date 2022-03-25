@@ -1,0 +1,36 @@
+{
+    "grassland":{
+        "chance":0.6,
+        "expand":0.8,
+        "bg":["grass"],
+        "block":{
+                "lowgrass":{
+                    "chance":0.02,
+                    "level":1,
+                    "expand":0.08
+                    
+                },
+                "tree":{
+                    "chance":0.04,
+                    "level":0,
+                    "expand":0
+                }
+                }
+            
+            
+        
+    },
+    "barerock":{
+        "chance":0.6,
+        "expand":0.2,
+        "bg":["rock"],
+        "block":{
+                "ironrock":{
+                    "chance":0.07,
+                    "level":1,
+                    "expand":0.08
+                }
+            }
+            
+    }
+}
